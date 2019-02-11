@@ -1,0 +1,266 @@
+body, html {
+
+			height: 100%;
+			margin: 0px;
+			padding: 0px;
+			font-family: "Raleway";
+}
+
+/*.container-1{
+
+		 	height: 100%;  
+			position: relative;
+		    top: 0;
+		    width: 100%;
+  }*/
+
+ .logo{
+
+		 	display: inline-block;
+		 	float: none;
+		 	padding-right: 0;
+		 	padding-top: 0;
+
+ }
+#navbar-ex1-collapse ul li a{
+
+			font-size: 15px;
+			letter-spacing: 1px;
+			line-height: 47px;
+			color: black;
+			font-family: "Raleway";
+			font-weight: 700;
+			text-transform: uppercase;
+}
+
+#navbar-ex1-collapse ul li a:focus  {
+	color: #ad70ba;;
+}
+
+
+.nav.navbar-nav{
+
+			padding-left: 10%;
+
+}	 
+
+ h1{
+
+			font-size: 25px;
+			line-height: 26px;
+			color: #444444;
+			font-family: "Raleway";
+			font-weight: 800;
+			text-transform: uppercase;
+			display: inline-block;
+			margin: 0;
+			margin-bottom: -1%!important;
+
+}
+
+.col_1{
+
+			float: left;
+
+}
+.care, .contact{
+	text-align: center;
+	width: 100%;
+} 
+
+/*@media screen and (max-width: 768px) {
+  
+  .logo {
+     float: none;
+     padding: 0;
+  }
+}*/
+
+
+
+.care {
+
+			display: inline-block;
+			 
+			    padding-top: 9%;
+    padding-bottom: 5%;
+}
+
+.care-grey{
+
+			color: grey;
+}
+.slogan{
+
+			font-size: 16px;
+			letter-spacing: 0px;
+			line-height: 26px;
+			color: #9b9b9b;
+			font-family: "Open Sans";
+			font-weight: 400;
+			font-style: italic;
+			text-align: left;
+    		padding-left: 25%;
+}
+
+ button{
+
+			width: 202px;
+			height: 45px;
+			border-radius: 23px;
+			background-color: #a175aa;
+			display: inline-block;
+ 	    	float: right;
+ 	    	text-align: center;
+ 	    	vertical-align:  middle;
+ 	    	position: relative;
+ 	    	outline: none;
+
+}
+
+.but_2{
+	 	    	outline: none;
+width: 188px;
+height: 45px;
+border-radius: 23px;
+background-color: #68a4ec;
+font-size: 15px;
+letter-spacing: 0px;
+line-height: 24px;
+color: #2d2d2d;
+font-family: "Open Sans";
+font-weight: 400;
+margin-left: -4%;
+    margin-right: 5%;
+}
+
+.but_1{
+	 	    	outline: none;
+width: 188px;
+height: 45px;
+border-radius: 23px;
+background-color: #ffffff;
+margin-left: 10%;
+margin-right: 20%
+}
+
+
+
+.book{
+
+			font-size: 15px;
+			letter-spacing: 0px;
+			line-height: 24px;
+			color: #ffffff;
+			font-family: "Open Sans";
+			font-weight: 400;
+}
+
+.call{
+
+			width: 202px;
+			height: 45px;
+		 	display: inline-block;
+ 	    	float: none;
+ 	    	text-align: center;
+ 	    	vertical-align:  middle;
+ 	    	position: relative;
+ 	    	outline: none;
+ 	    	text-align: left;
+}
+.phone{
+
+			float: left;
+			padding-top: 5px;
+			padding-right: 10px;
+}
+
+.contact{
+
+			display: inline-block;
+			float: none;
+			padding-top: 12%;
+			padding-bottom: 5%;
+			width: 90%;
+}
+
+.number{
+
+			font-size: 22px;
+			letter-spacing: 1px;
+			line-height: 20px;
+			color: #424242;
+			font-family: "Lato";
+			font-weight: 900;
+}
+
+.call-us{
+
+			font-size: 14px;
+			letter-spacing: 0px;
+			line-height: 20px;
+			color: #7d7987;
+			font-family: "Open Sans";
+			font-weight: 700;
+			text-transform: uppercase;
+}
+ 
+.navbar .navbar-default{
+	margin-bottom: 0;
+}
+
+
+.slider_info{
+	    position: absolute;
+        top: 65%;
+    z-index: 2;
+    display: table;
+    left: 19%;
+    width: 60%;
+    text-align: center;
+}
+
+
+.slider_title{
+	display: inline;
+	 font-size: 48px;
+letter-spacing: 1px;
+line-height: 57px;
+color: #ffffff;
+font-family: "Raleway";
+font-weight: 800; 
+ }
+
+ 
+
+
+
+ 
+
+.swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+       .swiper-slide.swiper-slide-active {
+          background-size: cover;
+
+}
